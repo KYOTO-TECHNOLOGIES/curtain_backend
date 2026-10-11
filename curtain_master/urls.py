@@ -24,4 +24,7 @@ urlpatterns = [
 
     # Orders API
     path('api/', include('orders.urls')),
+
+    # Inventory API
+    path('api/inventory/', include('inventory.urls')),
 ]
